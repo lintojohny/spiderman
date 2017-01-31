@@ -2893,14 +2893,6 @@ div[class*='col-'][class*='6'] .video-cover iframe {
   float: none;
   overflow: hidden;
 }
-
-.img-block-pad-dif .imageblock > .container,
-.imageblock > div[class*='col-']:not(.imageblock__content) {
-        padding-top: 1.5em;
-    padding-bottom: 0.125em;
-}
-}
-
 .imageblock.imageblock--lg > .container,
 .imageblock.imageblock--lg > div[class*='col-']:not(.imageblock__content) {
   padding-top: 10.15625em;
@@ -3317,6 +3309,7 @@ hr,
 .boxed.boxed--border {
   border-color: #ebebeb;
 }
+
 .bg--secondary hr {
   border-color: #e7e7e7;
 }
