@@ -2886,6 +2886,7 @@ div[class*='col-'][class*='6'] .video-cover iframe {
   position: relative;
   padding: 0;
 }
+
 .imageblock > .container,
 .imageblock > div[class*='col-']:not(.imageblock__content) {
   padding-top: 6.5em;
@@ -2893,6 +2894,12 @@ div[class*='col-'][class*='6'] .video-cover iframe {
   float: none;
   overflow: hidden;
 }
+
+.image-block-custom .imageblock > .container, .imageblock > div[class*='col-']:not(.imageblock__content) {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
 .imageblock.imageblock--lg > .container,
 .imageblock.imageblock--lg > div[class*='col-']:not(.imageblock__content) {
   padding-top: 10.15625em;
@@ -3037,7 +3044,7 @@ form[action*='list-manage.com'] .small-meta {
 /**! 31. Spacing **/
 section,
 footer {
-  padding-top: 6.5em;
+  padding-top: 2em;
   padding-bottom: 8.125em;
 }
 section.space--xxs,
@@ -7675,8 +7682,7 @@ footer .logo {
   overflow: hidden;
 }
 .footer-1 .footer__lower {
-  margin-top: 1.625em;
-  padding: 1.625em 0;
+    padding: 1em 0;
 }
 .footer-1 .footer__lower .type--fine-print {
   opacity: .4;
